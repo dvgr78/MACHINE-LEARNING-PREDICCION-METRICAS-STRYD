@@ -1,0 +1,36 @@
+CREATE TABLE [dbo].[STG_SEGMENTOS](
+	[ID_SEGMENTO] [varchar](20) NOT NULL,
+	[FECHA] [date] NULL,
+	[CONTADOR] [int] NULL,
+	[SEGMENTO] [int] NULL,
+	[ID_USUARIO] [int] NULL,
+	[ID_ZPALLADINO] [int] NULL,
+	[ID_TERRENO] [int] NULL,
+	[ID_TIPOE] [int] NULL,
+	[CP] [int] NULL,
+	[POTENCIA] [int] NULL,
+	[POR_CP] [decimal](15, 3) NULL,
+	[DISTANCIA] [int] NULL,
+	[DURACION] [int] NULL,
+	[RITMO] [int] NULL,
+	[FREC_CARDIACA] [int] NULL,
+	[CADENCIA] [int] NULL,
+	[TSC] [int] NULL,
+	[FP] [int] NULL,
+	[LSS] [decimal](15, 3) NULL,
+	[OSC_VERTICAL] [decimal](15, 3) NULL,
+	[L_ZANCADA] [decimal](15, 3) NULL,
+	[RFP] [decimal](15, 3) NULL,
+	[RLSS] [decimal](15, 3) NULL,
+	[ROV] [decimal](15, 3) NULL,
+	[RE] [decimal](15, 3) NULL,
+	[AIRE] [int] NULL,
+	[PENDIENTE] [decimal](15, 3) NULL,
+	[ALTITUD] [int] NULL,
+	[DESNIVEL] [int] NULL,
+	[RSS] [int] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[ID_SEGMENTO] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
